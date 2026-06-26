@@ -465,6 +465,16 @@ main {
 .video-preview.mambo    { border-top: 3px solid var(--blue); }
 .video-preview.boogaloo { border-top: 3px solid var(--gold); }
 
+.card-no-video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #444;
+  font-size: 1.6rem;
+  opacity: 0.35;
+  background: var(--ink);
+}
+
 .card-body {
   padding: 14px 16px 16px;
 }

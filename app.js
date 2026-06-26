@@ -164,51 +164,51 @@ const dances = {
 };
 
 const lessons = [
-  { dance: "chacha",   teacher: "Алекс Аткин",   video: "videos/Cha-cha-cha/IMG_3898 1урок.mp4",
+  { dance: "chacha",   teacher: "Алекс Аткин",   youtube: "",
     title: "Ча-ча-ча — урок 1",              titleEn: "Cha-cha-cha — Lesson 1",              titleHe: "צ'ה-צ'ה-צ'ה — שיעור 1" },
-  { dance: "chacha",   teacher: "Алекс Аткин",   video: "videos/Cha-cha-cha/IMG_3928 2урок.mp4",
+  { dance: "chacha",   teacher: "Алекс Аткин",   youtube: "",
     title: "Ча-ча-ча — урок 2, шаги",        titleEn: "Cha-cha-cha — Lesson 2, Steps",        titleHe: "צ'ה-צ'ה-צ'ה — שיעור 2, צעדים" },
-  { dance: "chacha",   teacher: "Алекс Аткин",   video: "videos/Cha-cha-cha/IMG_3929 2урок.mp4",
+  { dance: "chacha",   teacher: "Алекс Аткин",   youtube: "",
     title: "Ча-ча-ча — урок 2, под музыку",  titleEn: "Cha-cha-cha — Lesson 2, With Music",   titleHe: "צ'ה-צ'ה-צ'ה — שיעור 2, עם מוסיקה" },
-  { dance: "chacha",   teacher: "Алекс Аткин",   video: "videos/Cha-cha-cha/IMG_3950 3урок.mp4",
+  { dance: "chacha",   teacher: "Алекс Аткин",   youtube: "",
     title: "Ча-ча-ча — урок 3, шаги",        titleEn: "Cha-cha-cha — Lesson 3, Steps",        titleHe: "צ'ה-צ'ה-צ'ה — שיעור 3, צעדים" },
-  { dance: "chacha",   teacher: "Алекс Аткин",   video: "videos/Cha-cha-cha/IMG_3953 3урок.mp4",
+  { dance: "chacha",   teacher: "Алекс Аткин",   youtube: "",
     title: "Ча-ча-ча — урок 3, под музыку",  titleEn: "Cha-cha-cha — Lesson 3, With Music",   titleHe: "צ'ה-צ'ה-צ'ה — שיעור 3, עם מוסיקה" },
-  { dance: "chacha",   teacher: "Алекс Аткин",   video: "videos/Cha-cha-cha/Урок4.mp4",
+  { dance: "chacha",   teacher: "Алекс Аткин",   youtube: "",
     title: "Ча-ча-ча — урок 4, шаги",        titleEn: "Cha-cha-cha — Lesson 4, Steps",        titleHe: "צ'ה-צ'ה-צ'ה — שיעור 4, צעדים" },
-  { dance: "chacha",   teacher: "Алекс Аткин",   video: "videos/Cha-cha-cha/Урок4, под музыку.mp4",
+  { dance: "chacha",   teacher: "Алекс Аткин",   youtube: "",
     title: "Ча-ча-ча — урок 4, под музыку",  titleEn: "Cha-cha-cha — Lesson 4, With Music",   titleHe: "צ'ה-צ'ה-צ'ה — שיעור 4, עם מוסיקה" },
-  { dance: "chacha",   teacher: "Алекс Аткин",   video: "videos/Cha-cha-cha/Урок5.mp4",
+  { dance: "chacha",   teacher: "Алекс Аткин",   youtube: "",
     title: "Ча-ча-ча — урок 5, шаги",        titleEn: "Cha-cha-cha — Lesson 5, Steps",        titleHe: "צ'ה-צ'ה-צ'ה — שיעור 5, צעדים" },
-  { dance: "chacha",   teacher: "Алекс Аткин",   video: "videos/Cha-cha-cha/Урок5, под музыку.mp4",
+  { dance: "chacha",   teacher: "Алекс Аткин",   youtube: "",
     title: "Ча-ча-ча — урок 5, под музыку",  titleEn: "Cha-cha-cha — Lesson 5, With Music",   titleHe: "צ'ה-צ'ה-צ'ה — שיעור 5, עם מוסיקה" },
-  { dance: "chacha",   teacher: "Алекс Аткин",   video: "videos/Cha-cha-cha/Урок6 Шаги.mp4",
+  { dance: "chacha",   teacher: "Алекс Аткин",   youtube: "",
     title: "Ча-ча-ча — урок 6, шаги",        titleEn: "Cha-cha-cha — Lesson 6, Steps",        titleHe: "צ'ה-צ'ה-צ'ה — שיעור 6, צעדים" },
-  { dance: "chacha",   teacher: "Алекс Аткин",   video: "videos/Cha-cha-cha/Урок6.mp4",
+  { dance: "chacha",   teacher: "Алекс Аткин",   youtube: "",
     title: "Ча-ча-ча — урок 6, под музыку",  titleEn: "Cha-cha-cha — Lesson 6, With Music",   titleHe: "צ'ה-צ'ה-צ'ה — שיעור 6, עם מוסיקה" },
-  { dance: "salsa",    teacher: "Гиже и София",   video: "videos/SalsaNY/IMG_3656.mp4",
+  { dance: "salsa",    teacher: "Гиже и София",   youtube: "",
     title: "Сальса NY — видео 1",            titleEn: "Salsa NY — Video 1",                   titleHe: "סלסה NY — סרטון 1" },
-  { dance: "salsa",    teacher: "Гиже и София",   video: "videos/SalsaNY/IMG_3664.mp4",
+  { dance: "salsa",    teacher: "Гиже и София",   youtube: "",
     title: "Сальса NY — видео 2",            titleEn: "Salsa NY — Video 2",                   titleHe: "סלסה NY — סרטון 2" },
-  { dance: "salsa",    teacher: "Гиже и София",   video: "videos/SalsaNY/IMG_3666.mp4",
+  { dance: "salsa",    teacher: "Гиже и София",   youtube: "",
     title: "Сальса NY — видео 3",            titleEn: "Salsa NY — Video 3",                   titleHe: "סלסה NY — סרטון 3" },
-  { dance: "salsa",    teacher: "Паз, Матан",     video: "videos/SalsaNY/Paz-Matan/IMG_3879.mp4",
+  { dance: "salsa",    teacher: "Паз, Матан",     youtube: "",
     title: "Сальса NY — урок 1",             titleEn: "Salsa NY — Lesson 1",                  titleHe: "סלסה NY — שיעור 1" },
-  { dance: "salsa",    teacher: "Паз, Матан",     video: "videos/SalsaNY/Paz-Matan/IMG_3880.mp4",
+  { dance: "salsa",    teacher: "Паз, Матан",     youtube: "",
     title: "Сальса NY — урок 2",             titleEn: "Salsa NY — Lesson 2",                  titleHe: "סלסה NY — שיעור 2" },
-  { dance: "pachanga", teacher: "Алекс Аткин",   video: "videos/Pachanga/2урок, шаги.mp4",
+  { dance: "pachanga", teacher: "Алекс Аткин",   youtube: "",
     title: "Пачанга — урок 2, шаги",         titleEn: "Pachanga — Lesson 2, Steps",            titleHe: "פאצ'אנגה — שיעור 2, צעדים" },
-  { dance: "pachanga", teacher: "Алекс Аткин",   video: "videos/Pachanga/2урок, под музыку.mp4",
+  { dance: "pachanga", teacher: "Алекс Аткин",   youtube: "",
     title: "Пачанга — урок 2, под музыку",   titleEn: "Pachanga — Lesson 2, With Music",       titleHe: "פאצ'אנגה — שיעור 2, עם מוסיקה" },
-  { dance: "pachanga", teacher: "Алекс Аткин",   video: "videos/Pachanga/4урок, шаги.mp4",
+  { dance: "pachanga", teacher: "Алекс Аткин",   youtube: "",
     title: "Пачанга — урок 4, шаги",         titleEn: "Pachanga — Lesson 4, Steps",            titleHe: "פאצ'אנגה — שיעור 4, צעדים" },
-  { dance: "pachanga", teacher: "Алекс Аткин",   video: "videos/Pachanga/4урок, под музыку.mp4",
+  { dance: "pachanga", teacher: "Алекс Аткин",   youtube: "",
     title: "Пачанга — урок 4, под музыку",   titleEn: "Pachanga — Lesson 4, With Music",       titleHe: "פאצ'אנגה — שיעור 4, עם מוסיקה" },
-  { dance: "pachanga", teacher: "Алекс Аткин",   video: "videos/Pachanga/4урок, под музыку, группа1.mp4",
+  { dance: "pachanga", teacher: "Алекс Аткин",   youtube: "",
     title: "Пачанга — урок 4, под музыку (группа)", titleEn: "Pachanga — Lesson 4, With Music (Group)", titleHe: "פאצ'אנגה — שיעור 4, עם מוסיקה (קבוצה)" },
-  { dance: "pachanga", teacher: "Алекс Аткин",   video: "videos/Pachanga/5урок, шаги.mp4",
+  { dance: "pachanga", teacher: "Алекс Аткин",   youtube: "",
     title: "Пачанга — урок 5, шаги",         titleEn: "Pachanga — Lesson 5, Steps",            titleHe: "פאצ'אנגה — שיעור 5, צעדים" },
-  { dance: "pachanga", teacher: "Алекс Аткин",   video: "videos/Pachanga/6урок, шаги.mp4",
+  { dance: "pachanga", teacher: "Алекс Аткин",   youtube: "",
     title: "Пачанга — урок 6, шаги",         titleEn: "Pachanga — Lesson 6, Steps",            titleHe: "פאצ'אנגה — שיעור 6, צעדים" },
 ];
 
@@ -522,11 +522,18 @@ function makeCard(lesson) {
   const article = document.createElement("article");
   article.className = "video-card";
 
-  const video = document.createElement("video");
-  video.src = videoSrc(lesson.video);
-  video.controls = true;
-  video.preload = "metadata";
-  video.className = `video-preview ${lesson.dance}`;
+  let media;
+  if (lesson.youtube) {
+    media = document.createElement("iframe");
+    media.src = `https://www.youtube-nocookie.com/embed/${lesson.youtube}?rel=0`;
+    media.allow = "encrypted-media; picture-in-picture";
+    media.allowFullscreen = true;
+    media.className = `video-preview ${lesson.dance}`;
+  } else {
+    media = document.createElement("div");
+    media.className = `video-preview ${lesson.dance} card-no-video`;
+    media.textContent = "—";
+  }
 
   const body = document.createElement("div");
   body.className = "card-body";
@@ -545,7 +552,7 @@ function makeCard(lesson) {
   teacher.textContent = t("card.teacher") + " " + teacherName(lesson.teacher);
 
   body.append(tag, h3, teacher);
-  article.append(video, body);
+  article.append(media, body);
   return article;
 }
 
