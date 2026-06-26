@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ru">
+<html lang="ru" dir="ltr">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -28,8 +28,13 @@
         </svg>
       </div>
       <nav aria-label="Разделы">
-        <button data-tab="library" class="nav-tab" type="button">Архив</button>
-        <button data-tab="learn" class="nav-tab active" type="button">Учёба</button>
+        <div class="segmented lang-switcher" role="group" aria-label="Language">
+          <button data-lang="he" type="button">עב</button>
+          <button data-lang="en" type="button">EN</button>
+          <button data-lang="ru" class="active" type="button">RU</button>
+        </div>
+        <button data-tab="library" class="nav-tab" data-i18n="nav.archive" type="button">Архив</button>
+        <button data-tab="learn" class="nav-tab active" data-i18n="nav.learn" type="button">Учёба</button>
       </nav>
     </header>
 
@@ -39,16 +44,16 @@
         <div class="dance-panel">
           <div class="panel-head">
             <div>
-              <p class="eyebrow">режим</p>
+              <p class="eyebrow" data-i18n="eyebrow.mode">режим</p>
               <h2 id="dance-title">Salsa on 1</h2>
             </div>
             <div class="segmented" role="tablist" aria-label="Выбор танца">
-              <button class="active" data-dance="salsa" type="button">Сальса</button>
-              <button data-dance="salsa2" type="button">Сальса 2</button>
-              <button data-dance="chacha" type="button">Ча-ча-ча</button>
-              <button data-dance="pachanga" type="button">Пачанга</button>
-              <button data-dance="mambo" type="button">Мамбо</button>
-              <button data-dance="boogaloo" type="button">Бугалу</button>
+              <button class="active" data-dance="salsa" data-i18n="dance.salsa" type="button">Сальса</button>
+              <button data-dance="salsa2" data-i18n="dance.salsa2" type="button">Сальса 2</button>
+              <button data-dance="chacha" data-i18n="dance.chacha" type="button">Ча-ча-ча</button>
+              <button data-dance="pachanga" data-i18n="dance.pachanga" type="button">Пачанга</button>
+              <button data-dance="mambo" data-i18n="dance.mambo" type="button">Мамбо</button>
+              <button data-dance="boogaloo" data-i18n="dance.boogaloo" type="button">Бугалу</button>
             </div>
           </div>
 
@@ -61,25 +66,25 @@
               <div class="pulse-ring"></div>
             </div>
             <aside class="step-card" id="steps">
-              <p class="eyebrow">схема</p>
+              <p class="eyebrow" data-i18n="eyebrow.scheme">схема</p>
               <h3 id="step-name">Базовый шаг</h3>
               <p id="step-description">Вперёд левой на 1, перенос веса на 2, назад в центр на 3. Пауза на 4. Зеркально назад правой на 5-6-7.</p>
               <p id="beat-action" class="beat-action" aria-live="polite"></p>
               <div class="count-grid" id="count-grid" aria-label="Счёт танца"></div>
               <div class="music-example">
-                <p class="eyebrow">пример музыки</p>
+                <p class="eyebrow" data-i18n="eyebrow.musicex">пример музыки</p>
                 <div class="yt-container">
-                  <div class="yt-placeholder" id="yt-placeholder">вставь ссылку YouTube ниже</div>
+                  <div class="yt-placeholder" id="yt-placeholder" data-i18n="yt.placeholder">вставь ссылку YouTube ниже</div>
                   <iframe id="yt-player" class="yt-player" src="" allow="encrypted-media" allowfullscreen title="Пример музыки" style="display:none"></iframe>
                 </div>
                 <div class="yt-input-row">
-                  <input id="yt-url" type="url" placeholder="https://youtube.com/watch?v=..." class="yt-url-input" autocomplete="off" spellcheck="false">
+                  <input id="yt-url" type="url" placeholder="https://youtube.com/watch?v=..." data-i18n-ph="yt.input.placeholder" class="yt-url-input" autocomplete="off" spellcheck="false">
                   <button type="button" id="yt-clear" class="yt-clear-btn" title="Очистить">✕</button>
                 </div>
               </div>
               <div class="tempo-control">
                 <div class="tempo-head">
-                  <label for="tempo-slider" class="eyebrow">темп</label>
+                  <label for="tempo-slider" class="eyebrow" data-i18n="eyebrow.tempo">темп</label>
                   <button id="sound-toggle" class="sound-btn active" type="button">звук вкл</button>
                 </div>
                 <div class="tempo-row">
@@ -93,69 +98,77 @@
 
         <section class="notes">
           <article>
-            <p class="eyebrow">типичные ошибки</p>
+            <p class="eyebrow" data-i18n="eyebrow.mistakes">типичные ошибки</p>
             <ul id="note-mistakes"></ul>
           </article>
           <article>
-            <p class="eyebrow">упражнения</p>
+            <p class="eyebrow" data-i18n="eyebrow.drills">упражнения</p>
             <ul id="note-drills"></ul>
           </article>
         </section>
       </section>
 
-      <section class=”featured-video”>
-        <p class=”eyebrow”>итоговое видео</p>
-        <div class=”featured-inner”>
-          <video class=”featured-player” src=”videos/Cha-cha-cha/Общее видео для обложки Урок4.mp4” controls preload=”metadata”></video>
-          <div class=”featured-info”>
-            <h2>Ча-ча-ча — урок 4</h2>
-            <p>Пример того, как выглядит материал урока в целом — шаги, ритм и соединение под музыку.</p>
-            <p class=”featured-teacher”>Преподаватель: Алекс Аткин</p>
+      <section class="featured-video">
+        <p class="eyebrow" data-i18n="eyebrow.featured">итоговое видео</p>
+        <div class="featured-inner">
+          <video class="featured-player" src="videos/Cha-cha-cha/Общее видео для обложки Урок4.mp4" controls preload="metadata"></video>
+          <div class="featured-info">
+            <h2 data-i18n="featured.title">Ча-ча-ча — урок 4</h2>
+            <p data-i18n="featured.desc">Пример того, как выглядит материал урока в целом — шаги, ритм и соединение под музыку.</p>
+            <p class="featured-teacher" data-i18n="featured.teacher">Преподаватель: Алекс Аткин</p>
           </div>
         </div>
       </section>
 
-      <section class=”rhythm-lab” id=”rhythm”>
+      <section class="rhythm-lab" id="rhythm">
         <div class="section-title">
-          <p class="eyebrow">ритм</p>
-          <h2>Счёт и акценты</h2>
+          <p class="eyebrow" data-i18n="eyebrow.rhythm">ритм</p>
+          <h2 data-i18n="rhythm.title">Счёт и акценты</h2>
         </div>
         <div class="timeline" id="timeline" aria-label="Музыкальная сетка"></div>
         <div class="rhythm-legend">
-          <span><i class="dot step"></i> шаг</span>
-          <span><i class="dot pause"></i> пауза</span>
-          <span><i class="dot accent"></i> акцент</span>
-          <span><i class="dot sync"></i> синкопа</span>
+          <span><i class="dot step"></i> <span data-i18n="legend.step">шаг</span></span>
+          <span><i class="dot pause"></i> <span data-i18n="legend.pause">пауза</span></span>
+          <span><i class="dot accent"></i> <span data-i18n="legend.accent">акцент</span></span>
+          <span><i class="dot sync"></i> <span data-i18n="legend.sync">синкопа</span></span>
         </div>
       </section>
 
       <section class="music-map" id="music">
         <div class="section-title">
           <div>
-            <p class="eyebrow">музыка</p>
-            <h2>Где искать слои в сальсе</h2>
+            <p class="eyebrow" data-i18n="eyebrow.music">музыка</p>
+            <h2 data-i18n="music.title">Где искать слои в сальсе</h2>
           </div>
-          <div class="segmented" role="group" aria-label="Паттерн клаве">
-            <button data-clave="2-3" class="active" type="button">Клаве 2-3</button>
-            <button data-clave="3-2" type="button">Клаве 3-2</button>
+          <div class="map-controls">
+            <button id="map-play-btn" class="map-play-btn" type="button">▶ слушать</button>
+            <div class="segmented" role="group" aria-label="Паттерн клаве">
+              <button data-clave="2-3" class="active" data-i18n="clave.23" type="button">Клаве 2-3</button>
+              <button data-clave="3-2" data-i18n="clave.32" type="button">Клаве 3-2</button>
+            </div>
           </div>
         </div>
-        <div class="track-map">
+        <div class="track-map" id="track-map">
+          <div class="map-playhead" id="map-playhead"></div>
           <div class="track-row">
-            <span>Клаве</span>
+            <span data-i18n="track.clave">Клаве</span>
             <div class="beats clave"><b></b><b></b><b></b><b></b><b></b></div>
           </div>
           <div class="track-row">
-            <span>Конга</span>
+            <span data-i18n="track.conga">Конга</span>
             <div class="beats conga"><b></b><b></b><b></b><b></b></div>
           </div>
           <div class="track-row">
-            <span>Пачанга</span>
+            <span data-i18n="track.pachanga">Пачанга</span>
             <div class="beats pachanga-line"><b></b><b></b><b></b><b></b><b></b><b></b></div>
           </div>
           <div class="track-row">
-            <span>Тело</span>
+            <span data-i18n="track.body">Тело</span>
             <div class="beats body-line"><b></b><b></b><b></b><b></b></div>
+          </div>
+          <div class="track-row">
+            <span data-i18n="track.maracas">Маракас</span>
+            <div class="beats maraca-line"><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b></div>
           </div>
         </div>
       </section>
@@ -165,8 +178,8 @@
         <section class="library" id="library">
           <div class="section-title">
             <div>
-              <p class="eyebrow">архив</p>
-              <h2>Видео с уроков</h2>
+              <p class="eyebrow" data-i18n="eyebrow.archive">архив</p>
+              <h2 data-i18n="library.title">Видео с уроков</h2>
               <svg class="ecg-line ecg-library" viewBox="0 0 800 40" preserveAspectRatio="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
                 <defs>
                   <linearGradient id="ecg-g-lib" x1="0" x2="800" y1="0" y2="0" gradientUnits="userSpaceOnUse">
@@ -181,10 +194,10 @@
               </svg>
             </div>
             <div class="segmented library-filter" role="group" aria-label="Фильтр по танцу">
-              <button data-filter="" class="active" type="button">Все</button>
-              <button data-filter="salsa" type="button">Сальса</button>
-              <button data-filter="chacha" type="button">Ча-ча-ча</button>
-              <button data-filter="pachanga" type="button">Пачанга</button>
+              <button data-filter="" class="active" data-i18n="filter.all" type="button">Все</button>
+              <button data-filter="salsa" data-i18n="filter.salsa" type="button">Сальса</button>
+              <button data-filter="chacha" data-i18n="filter.chacha" type="button">Ча-ча-ча</button>
+              <button data-filter="pachanga" data-i18n="filter.pachanga" type="button">Пачанга</button>
             </div>
           </div>
           <div class="video-grid"></div>
