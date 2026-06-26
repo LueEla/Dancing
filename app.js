@@ -182,7 +182,7 @@ const lessons = [
     title: "Ча-ча-ча — урок 5, шаги",        titleEn: "Cha-cha-cha — Lesson 5, Steps",        titleHe: "צ'ה-צ'ה-צ'ה — שיעור 5, צעדים" },
   { dance: "chacha",   teacher: "Алекс Аткин",   youtube: "", video: "videos/Cha-cha-cha/Урок5, под музыку.mp4",
     title: "Ча-ча-ча — урок 5, под музыку",  titleEn: "Cha-cha-cha — Lesson 5, With Music",   titleHe: "צ'ה-צ'ה-צ'ה — שיעור 5, עם מוסיקה" },
-  { dance: "chacha",   teacher: "Алекс Аткин",   youtube: "", video: "videos/Cha-cha-cha/Урок6 Шаги.mp4",
+  { dance: "chacha",   teacher: "Алекс Аткин",   youtube: "VUr2icXwUr0",
     title: "Ча-ча-ча — урок 6, шаги",        titleEn: "Cha-cha-cha — Lesson 6, Steps",        titleHe: "צ'ה-צ'ה-צ'ה — שיעור 6, צעדים" },
   { dance: "chacha",   teacher: "Алекс Аткин",   youtube: "", video: "videos/Cha-cha-cha/Урок6.mp4",
     title: "Ча-ча-ча — урок 6, под музыку",  titleEn: "Cha-cha-cha — Lesson 6, With Music",   titleHe: "צ'ה-צ'ה-צ'ה — שיעור 6, עם מוסיקה" },
