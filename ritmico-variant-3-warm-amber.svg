@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" fill="none" stroke="#dcb673" stroke-opacity=".32" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="#fdf4e3"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <rect y="0" width="1600" height="112" fill="#f7e8ca" stroke="#e2cda8"/>
+  <text x="72" y="44" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="800" fill="#a76d12" letter-spacing="2">DANCE NOTES</text>
+  <text x="72" y="84" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="900" fill="#1e1208">Salsa Hub</text>
+  <rect x="245" y="39" width="148" height="45" fill="#1e1208"/>
+  <path d="M258 62h18l5-15 8 31 8-21 7 14h18" fill="none" stroke="#e0a83a" stroke-width="3"/>
+  <text x="326" y="69" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="900" fill="#e0a83a">RITMICO</text>
+  <rect x="1378" y="42" width="70" height="36" rx="7" fill="#1e1208"/>
+  <text x="1401" y="65" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="800" fill="#fff7e8">Учёба</text>
+  <rect x="1460" y="42" width="72" height="36" rx="7" fill="#fff7e8" stroke="#d6b06b"/>
+  <text x="1481" y="65" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="800" fill="#1e1208">Архив</text>
+  <g transform="translate(345 170)">
+    <rect width="610" height="580" rx="8" fill="#fffaf0" stroke="#e2cda8"/>
+    <text x="32" y="56" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="900" fill="#a76d12">РЕЖИМ</text>
+    <text x="32" y="98" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="900" fill="#1e1208">Salsa on 1</text>
+    <g transform="translate(310 60)" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="800">
+      <rect x="0" y="0" width="70" height="36" rx="7" fill="#c98a1b"/><text x="17" y="23" fill="#1e1208">Сальса</text>
+      <rect x="80" y="0" width="72" height="36" rx="7" fill="#fffaf0" stroke="#d6b06b"/><text x="96" y="23" fill="#5d3c16">Сальса 2</text>
+      <rect x="162" y="0" width="84" height="36" rx="7" fill="#fffaf0" stroke="#d6b06b"/><text x="176" y="23" fill="#5d3c16">Ча-ча-ча</text>
+    </g>
+    <rect x="32" y="150" width="350" height="380" rx="7" fill="#f4dfb8" stroke="#d6b06b"/>
+    <path d="M72 342h270M207 185v300" stroke="#bc995d"/>
+    <path d="M72 190L350 508" stroke="#b57a19" stroke-opacity=".18" stroke-width="16"/>
+    <circle cx="207" cy="342" r="48" fill="none" stroke="#c98a1b" stroke-opacity=".55" stroke-width="3"/>
+    <ellipse cx="148" cy="275" rx="20" ry="33" fill="#fffaf0" stroke="#72501e" stroke-width="2"/><text x="142" y="281" font-family="Inter, Arial" font-weight="900" fill="#1e1208">L</text>
+    <ellipse cx="270" cy="405" rx="20" ry="33" fill="#fffaf0" stroke="#c98a1b" stroke-width="3"/><text x="264" y="411" font-family="Inter, Arial" font-weight="900" fill="#1e1208">R</text>
+    <g transform="translate(405 150)">
+      <text x="0" y="28" font-family="Inter, Arial" font-size="13" font-weight="900" fill="#a76d12">СХЕМА</text>
+      <text x="0" y="62" font-family="Inter, Arial" font-size="21" font-weight="900" fill="#1e1208">Базовый шаг</text>
+      <text x="0" y="95" font-family="Inter, Arial" font-size="15" fill="#6d4d28">Вперёд левой на 1, перенос веса</text>
+      <text x="0" y="118" font-family="Inter, Arial" font-size="15" fill="#6d4d28">на 2, назад в центр на 3.</text>
+      <rect x="0" y="150" width="250" height="34" rx="5" fill="#f8ead2"/><rect x="0" y="150" width="4" height="34" fill="#c98a1b"/>
+      <text x="14" y="172" font-family="Inter, Arial" font-size="13" fill="#5d3c16">возврат в центр правой</text>
+      <g transform="translate(0 210)" font-family="Inter, Arial" font-size="18" font-weight="900">
+        <rect x="0" y="0" width="36" height="42" rx="6" fill="#c98a1b"/><text x="13" y="27" fill="#1e1208">1</text>
+        <rect x="46" y="0" width="36" height="42" rx="6" fill="#fffaf0" stroke="#d6b06b"/><text x="59" y="27" fill="#1e1208">2</text>
+        <rect x="92" y="0" width="36" height="42" rx="6" fill="#fffaf0" stroke="#d6b06b"/><text x="105" y="27" fill="#1e1208">3</text>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(985 170)">
+    <rect width="300" height="130" rx="8" fill="#fffaf0" stroke="#e2cda8"/>
+    <text x="24" y="36" font-family="Inter, Arial" font-size="13" font-weight="900" fill="#a76d12">ТИПИЧНЫЕ ОШИБКИ</text>
+    <text x="24" y="70" font-family="Inter, Arial" font-size="15" fill="#6d4d28">• Не прыгать на паузе 4 и 8</text>
+    <text x="24" y="98" font-family="Inter, Arial" font-size="15" fill="#6d4d28">• Вес полностью на рабочую ногу</text>
+    <rect y="155" width="300" height="130" rx="8" fill="#fffaf0" stroke="#e2cda8"/>
+    <text x="24" y="191" font-family="Inter, Arial" font-size="13" font-weight="900" fill="#a76d12">УПРАЖНЕНИЯ</text>
+    <text x="24" y="225" font-family="Inter, Arial" font-size="15" fill="#6d4d28">• Считать вслух, стоя на месте</text>
+    <text x="24" y="253" font-family="Inter, Arial" font-size="15" fill="#6d4d28">• Отмечать паузы хлопком</text>
+  </g>
+  <g transform="translate(345 780)">
+    <rect width="940" height="6" rx="3" fill="#e2cda8"/>
+    <rect width="430" height="6" rx="3" fill="#c98a1b"/>
+    <text x="0" y="42" font-family="Inter, Arial" font-size="18" font-weight="900" fill="#1e1208">Тёплый дневной класс: янтарь, дерево, плотная учебная атмосфера</text>
+  </g>
+</svg>
