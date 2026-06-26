@@ -525,8 +525,9 @@ function makeCard(lesson) {
   let media;
   if (lesson.youtube) {
     media = document.createElement("iframe");
-    media.src = `https://www.youtube-nocookie.com/embed/${lesson.youtube}?rel=0`;
-    media.allow = "encrypted-media; picture-in-picture";
+    media.src = `https://www.youtube.com/embed/${lesson.youtube}?rel=0`;
+    media.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+    media.setAttribute("frameborder", "0");
     media.allowFullscreen = true;
     media.className = `video-preview ${lesson.dance}`;
   } else if (lesson.video) {
