@@ -832,10 +832,10 @@ main {
 /* ─── Language Switcher ──────────────────────────────────────────────────── */
 
 .lang-switcher {
-  gap: 4px;
-  padding: 5px;
-  background: rgba(214, 163, 58, 0.1);
-  border: 1px solid rgba(214, 163, 58, 0.35);
+  gap: 6px;
+  padding: 7px 9px;
+  background: rgba(214, 163, 58, 0.18);
+  border: 1px solid rgba(214, 163, 58, 0.6);
   border-radius: 8px;
 }
 
