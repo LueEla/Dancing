@@ -192,7 +192,7 @@ const lessons = [
     title: "Сальса NY — видео 2",            titleEn: "Salsa NY — Video 2",                   titleHe: "סלסה NY — סרטון 2" },
   { dance: "salsa",    teacher: "Гиже и София",   youtube: "",
     title: "Сальса NY — видео 3",            titleEn: "Salsa NY — Video 3",                   titleHe: "סלסה NY — סרטון 3" },
-  { dance: "salsa",    teacher: "Паз, Матан",     youtube: "",
+  { dance: "salsa",    teacher: "Паз, Матан",     youtube: "", video: "videos/SalsaNY/Paz-Matan/IMG_3879.mp4",
     title: "Сальса NY — урок 1",             titleEn: "Salsa NY — Lesson 1",                  titleHe: "סלסה NY — שיעור 1" },
   { dance: "salsa",    teacher: "Паз, Матан",     youtube: "",
     title: "Сальса NY — урок 2",             titleEn: "Salsa NY — Lesson 2",                  titleHe: "סלסה NY — שיעור 2" },
