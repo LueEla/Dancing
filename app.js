@@ -176,15 +176,15 @@ const lessons = [
     title: "Ча-ча-ча — урок 3, под музыку",  titleEn: "Cha-cha-cha — Lesson 3, With Music",   titleHe: "צ'ה-צ'ה-צ'ה — שיעור 3, עם מוסיקה" },
   { dance: "chacha",   teacher: "Алекс Аткин",   youtube: "",
     title: "Ча-ча-ча — урок 4, шаги",        titleEn: "Cha-cha-cha — Lesson 4, Steps",        titleHe: "צ'ה-צ'ה-צ'ה — שיעור 4, צעדים" },
-  { dance: "chacha",   teacher: "Алекс Аткин",   youtube: "",
+  { dance: "chacha",   teacher: "Алекс Аткин",   youtube: "", video: "videos/Cha-cha-cha/Урок4, под музыку.mp4",
     title: "Ча-ча-ча — урок 4, под музыку",  titleEn: "Cha-cha-cha — Lesson 4, With Music",   titleHe: "צ'ה-צ'ה-צ'ה — שיעור 4, עם מוסיקה" },
   { dance: "chacha",   teacher: "Алекс Аткин",   youtube: "",
     title: "Ча-ча-ча — урок 5, шаги",        titleEn: "Cha-cha-cha — Lesson 5, Steps",        titleHe: "צ'ה-צ'ה-צ'ה — שיעור 5, צעדים" },
-  { dance: "chacha",   teacher: "Алекс Аткин",   youtube: "",
+  { dance: "chacha",   teacher: "Алекс Аткин",   youtube: "", video: "videos/Cha-cha-cha/Урок5, под музыку.mp4",
     title: "Ча-ча-ча — урок 5, под музыку",  titleEn: "Cha-cha-cha — Lesson 5, With Music",   titleHe: "צ'ה-צ'ה-צ'ה — שיעור 5, עם מוסיקה" },
   { dance: "chacha",   teacher: "Алекс Аткин",   youtube: "VUr2icXwUr0",
     title: "Ча-ча-ча — урок 6, шаги",        titleEn: "Cha-cha-cha — Lesson 6, Steps",        titleHe: "צ'ה-צ'ה-צ'ה — שיעור 6, צעדים" },
-  { dance: "chacha",   teacher: "Алекс Аткин",   youtube: "",
+  { dance: "chacha",   teacher: "Алекс Аткин",   youtube: "", video: "videos/Cha-cha-cha/Урок6.mp4",
     title: "Ча-ча-ча — урок 6, под музыку",  titleEn: "Cha-cha-cha — Lesson 6, With Music",   titleHe: "צ'ה-צ'ה-צ'ה — שיעור 6, עם מוסיקה" },
   { dance: "salsa",    teacher: "Гиже и София",   youtube: "",
     title: "Сальса NY — видео 1",            titleEn: "Salsa NY — Video 1",                   titleHe: "סלסה NY — סרטון 1" },
@@ -198,13 +198,13 @@ const lessons = [
     title: "Сальса NY — урок 2",             titleEn: "Salsa NY — Lesson 2",                  titleHe: "סלסה NY — שיעור 2" },
   { dance: "pachanga", teacher: "Алекс Аткин",   youtube: "",
     title: "Пачанга — урок 2, шаги",         titleEn: "Pachanga — Lesson 2, Steps",            titleHe: "פאצ'אנגה — שיעור 2, צעדים" },
-  { dance: "pachanga", teacher: "Алекс Аткин",   youtube: "",
+  { dance: "pachanga", teacher: "Алекс Аткин",   youtube: "", video: "videos/Pachanga/2урок, под музыку.mp4",
     title: "Пачанга — урок 2, под музыку",   titleEn: "Pachanga — Lesson 2, With Music",       titleHe: "פאצ'אנגה — שיעור 2, עם מוסיקה" },
   { dance: "pachanga", teacher: "Алекс Аткин",   youtube: "",
     title: "Пачанга — урок 4, шаги",         titleEn: "Pachanga — Lesson 4, Steps",            titleHe: "פאצ'אנגה — שיעור 4, צעדים" },
-  { dance: "pachanga", teacher: "Алекс Аткин",   youtube: "",
+  { dance: "pachanga", teacher: "Алекс Аткин",   youtube: "", video: "videos/Pachanga/4урок, под музыку.mp4",
     title: "Пачанга — урок 4, под музыку",   titleEn: "Pachanga — Lesson 4, With Music",       titleHe: "פאצ'אנגה — שיעור 4, עם מוסיקה" },
-  { dance: "pachanga", teacher: "Алекс Аткин",   youtube: "",
+  { dance: "pachanga", teacher: "Алекс Аткин",   youtube: "", video: "videos/Pachanga/4урок, под музыку, группа1.mp4",
     title: "Пачанга — урок 4, под музыку (группа)", titleEn: "Pachanga — Lesson 4, With Music (Group)", titleHe: "פאצ'אנגה — שיעור 4, עם מוסיקה (קבוצה)" },
   { dance: "pachanga", teacher: "Алекс Аткин",   youtube: "",
     title: "Пачанга — урок 5, шаги",         titleEn: "Pachanga — Lesson 5, Steps",            titleHe: "פאצ'אנגה — שיעור 5, צעדים" },
@@ -528,6 +528,11 @@ function makeCard(lesson) {
     media.src = `https://www.youtube-nocookie.com/embed/${lesson.youtube}?rel=0`;
     media.allow = "encrypted-media; picture-in-picture";
     media.allowFullscreen = true;
+    media.className = `video-preview ${lesson.dance}`;
+  } else if (lesson.video) {
+    media = document.createElement("video");
+    media.src = lesson.video.split("/").map(encodeURIComponent).join("/");
+    media.controls = true;
     media.className = `video-preview ${lesson.dance}`;
   } else {
     media = document.createElement("div");
