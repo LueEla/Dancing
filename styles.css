@@ -594,8 +594,8 @@ main {
 
 .track-label {
   display: flex;
-  align-items: baseline;
-  gap: 9px;
+  flex-direction: column;
+  gap: 5px;
 }
 
 .track-label span {
@@ -605,10 +605,16 @@ main {
 }
 
 .track-desc {
-  font-size: 0.72em;
+  display: inline-block;
+  font-size: 0.68em;
   font-weight: 400;
-  color: var(--muted);
-  opacity: 0.65;
+  color: var(--text);
+  opacity: 0.55;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  padding: 2px 7px;
+  line-height: 1.5;
 }
 
 .beats {
