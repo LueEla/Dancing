@@ -99,12 +99,15 @@ body {
   z-index: 10;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 24px;
+  gap: 20px;
   padding: 18px clamp(18px, 4vw, 56px);
   border-bottom: 1px solid var(--line);
   background: rgba(15, 13, 11, 0.94);
   backdrop-filter: blur(14px);
+}
+
+.topbar nav {
+  margin-left: auto;
 }
 
 h1,
@@ -830,6 +833,10 @@ main {
 
 .lang-switcher {
   gap: 4px;
+  padding: 5px;
+  background: rgba(214, 163, 58, 0.1);
+  border: 1px solid rgba(214, 163, 58, 0.35);
+  border-radius: 8px;
 }
 
 .lang-switcher button {
