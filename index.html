@@ -27,12 +27,12 @@
             fill="none" stroke="url(#ecg-g-title)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
       </div>
+      <div class="segmented lang-switcher" role="group" aria-label="Language">
+        <button data-lang="he" type="button">עב</button>
+        <button data-lang="en" type="button">EN</button>
+        <button data-lang="ru" class="active" type="button">RU</button>
+      </div>
       <nav aria-label="Разделы">
-        <div class="segmented lang-switcher" role="group" aria-label="Language">
-          <button data-lang="he" type="button">עב</button>
-          <button data-lang="en" type="button">EN</button>
-          <button data-lang="ru" class="active" type="button">RU</button>
-        </div>
         <button data-tab="library" class="nav-tab" data-i18n="nav.archive" type="button">Архив</button>
         <button data-tab="learn" class="nav-tab active" data-i18n="nav.learn" type="button">Учёба</button>
       </nav>
@@ -85,7 +85,7 @@
               <div class="tempo-control">
                 <div class="tempo-head">
                   <label for="tempo-slider" class="eyebrow" data-i18n="eyebrow.tempo">темп</label>
-                  <button id="sound-toggle" class="sound-btn active" type="button">звук вкл</button>
+                  <button id="sound-toggle" class="sound-btn" type="button">звук выкл</button>
                 </div>
                 <div class="tempo-row">
                   <input type="range" id="tempo-slider" min="40" max="160" step="5" value="71">
@@ -111,7 +111,7 @@
       <section class="featured-video">
         <p class="eyebrow" data-i18n="eyebrow.featured">итоговое видео</p>
         <div class="featured-inner">
-          <video class="featured-player" src="videos/Cha-cha-cha/Общее видео для обложки Урок4.mp4" controls preload="metadata"></video>
+          <video class="featured-player" src="videos/Cha-cha-cha/Общее видео для обложки Урок4.mp4" controls></video>
           <div class="featured-info">
             <h2 data-i18n="featured.title">Ча-ча-ча — урок 4</h2>
             <p data-i18n="featured.desc">Пример того, как выглядит материал урока в целом — шаги, ритм и соединение под музыку.</p>
@@ -151,23 +151,23 @@
         <div class="track-map" id="track-map">
           <div class="map-playhead" id="map-playhead"></div>
           <div class="track-row">
-            <span data-i18n="track.clave">Клаве</span>
+            <div class="track-label"><span data-i18n="track.clave">Клаве</span><small class="track-desc" data-i18n="track.clave.desc">основа ритма, задаёт паттерн</small></div>
             <div class="beats clave"><b></b><b></b><b></b><b></b><b></b></div>
           </div>
           <div class="track-row">
-            <span data-i18n="track.conga">Конга</span>
+            <div class="track-label"><span data-i18n="track.conga">Конга</span><small class="track-desc" data-i18n="track.conga.desc">маркирует сильные доли</small></div>
             <div class="beats conga"><b></b><b></b><b></b><b></b></div>
           </div>
           <div class="track-row">
-            <span data-i18n="track.pachanga">Пачанга</span>
+            <div class="track-label"><span data-i18n="track.pachanga">Пачанга</span><small class="track-desc" data-i18n="track.pachanga.desc">акценты на «и» — подскок</small></div>
             <div class="beats pachanga-line"><b></b><b></b><b></b><b></b><b></b><b></b></div>
           </div>
           <div class="track-row">
-            <span data-i18n="track.body">Тело</span>
+            <div class="track-label"><span data-i18n="track.body">Тело</span><small class="track-desc" data-i18n="track.body.desc">движение корпуса и бёдер</small></div>
             <div class="beats body-line"><b></b><b></b><b></b><b></b></div>
           </div>
           <div class="track-row">
-            <span data-i18n="track.maracas">Маракас</span>
+            <div class="track-label"><span data-i18n="track.maracas">Маракас</span><small class="track-desc" data-i18n="track.maracas.desc">ровный пульс на каждой доле</small></div>
             <div class="beats maraca-line"><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b></div>
           </div>
         </div>

@@ -99,12 +99,15 @@ body {
   z-index: 10;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 24px;
+  gap: 20px;
   padding: 18px clamp(18px, 4vw, 56px);
   border-bottom: 1px solid var(--line);
   background: rgba(15, 13, 11, 0.94);
   backdrop-filter: blur(14px);
+}
+
+.topbar nav {
+  margin-left: auto;
 }
 
 h1,
@@ -402,6 +405,7 @@ main {
 
 .featured-player {
   width: 100%;
+  aspect-ratio: 16 / 9;
   border-radius: 6px;
   background: var(--ink);
   display: block;
@@ -464,6 +468,16 @@ main {
 .video-preview.pachanga { border-top: 3px solid var(--gold); }
 .video-preview.mambo    { border-top: 3px solid var(--blue); }
 .video-preview.boogaloo { border-top: 3px solid var(--gold); }
+
+.card-no-video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #444;
+  font-size: 1.6rem;
+  opacity: 0.35;
+  background: var(--ink);
+}
 
 .card-body {
   padding: 14px 16px 16px;
@@ -573,14 +587,34 @@ main {
 
 .track-row {
   display: grid;
-  grid-template-columns: 100px 1fr;
+  grid-template-columns: minmax(160px, 280px) 1fr;
   align-items: center;
   gap: 12px;
 }
 
-.track-row span {
+.track-label {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.track-label span {
   color: var(--muted);
   font-weight: 800;
+  white-space: nowrap;
+}
+
+.track-desc {
+  display: inline-block;
+  font-size: 0.68em;
+  font-weight: 400;
+  color: var(--text);
+  opacity: 0.55;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  padding: 2px 7px;
+  line-height: 1.5;
 }
 
 .beats {
@@ -818,7 +852,11 @@ main {
 /* ─── Language Switcher ──────────────────────────────────────────────────── */
 
 .lang-switcher {
-  gap: 4px;
+  gap: 6px;
+  padding: 7px 9px;
+  background: rgba(214, 163, 58, 0.18);
+  border: 1px solid rgba(214, 163, 58, 0.6);
+  border-radius: 8px;
 }
 
 .lang-switcher button {
