@@ -630,7 +630,7 @@ let isPaused     = false;
 let bpm          = 71;
 let intervalId   = null;
 let resumeTimer  = null;
-let soundEnabled = true;
+let soundEnabled = false;
 let audioCtx     = null;
 
 function getAudioCtx() {
