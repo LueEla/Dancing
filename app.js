@@ -198,6 +198,10 @@ const lessons = [
     title: "Пачанга — урок 2, шаги",         titleEn: "Pachanga — Lesson 2, Steps",            titleHe: "פאצ'אנגה — שיעור 2, צעדים" },
   { dance: "pachanga", teacher: "Алекс Аткин",   youtube: "", video: "videos/Pachanga/2урок, под музыку.mp4",
     title: "Пачанга — урок 2, под музыку",   titleEn: "Pachanga — Lesson 2, With Music",       titleHe: "פאצ'אנגה — שיעור 2, עם מוסיקה" },
+  { dance: "pachanga", teacher: "Алекс Аткин",   youtube: "", video: "videos/Pachanga/3урок, шаги1.mp4",
+    title: "Пачанга — урок 3, шаги (ч.1)",    titleEn: "Pachanga — Lesson 3, Steps (pt.1)",     titleHe: "פאצ'אנגה — שיעור 3, צעדים (ח.1)" },
+  { dance: "pachanga", teacher: "Алекс Аткин",   youtube: "", video: "videos/Pachanga/3урок, шаги2.mp4",
+    title: "Пачанга — урок 3, шаги (ч.2)",    titleEn: "Pachanga — Lesson 3, Steps (pt.2)",     titleHe: "פאצ'אנגה — שיעור 3, צעדים (ח.2)" },
   { dance: "pachanga", teacher: "Алекс Аткин",   youtube: "", video: "videos/Pachanga/4урок, шаги.mp4",
     title: "Пачанга — урок 4, шаги",         titleEn: "Pachanga — Lesson 4, Steps",            titleHe: "פאצ'אנגה — שיעור 4, צעדים" },
   { dance: "pachanga", teacher: "Алекс Аткин",   youtube: "", video: "videos/Pachanga/4урок, под музыку.mp4",
@@ -206,8 +210,14 @@ const lessons = [
     title: "Пачанга — урок 4, под музыку (группа)", titleEn: "Pachanga — Lesson 4, With Music (Group)", titleHe: "פאצ'אנגה — שיעור 4, עם מוסיקה (קבוצה)" },
   { dance: "pachanga", teacher: "Алекс Аткин",   youtube: "", video: "videos/Pachanga/5урок, шаги.mp4",
     title: "Пачанга — урок 5, шаги",         titleEn: "Pachanga — Lesson 5, Steps",            titleHe: "פאצ'אנגה — שיעור 5, צעדים" },
+  { dance: "pachanga", teacher: "Алекс Аткин",   youtube: "", video: "videos/Pachanga/5урок, под музыку.mp4",
+    title: "Пачанга — урок 5, под музыку",   titleEn: "Pachanga — Lesson 5, With Music",       titleHe: "פאצ'אנגה — שיעור 5, עם מוסיקה" },
+  { dance: "pachanga", teacher: "Алекс Аткин",   youtube: "", video: "videos/Pachanga/5урок, под музыку2.mp4",
+    title: "Пачанга — урок 5, под музыку (ч.2)", titleEn: "Pachanga — Lesson 5, With Music (pt.2)", titleHe: "פאצ'אנגה — שיעור 5, עם מוסיקה (ח.2)" },
   { dance: "pachanga", teacher: "Алекс Аткин",   youtube: "", video: "videos/Pachanga/6урок, шаги.mp4",
     title: "Пачанга — урок 6, шаги",         titleEn: "Pachanga — Lesson 6, Steps",            titleHe: "פאצ'אנגה — שיעור 6, צעדים" },
+  { dance: "pachanga", teacher: "Алекс Аткин",   youtube: "", video: "videos/Pachanga/6урок, под музыку.mp4",
+    title: "Пачанга — урок 6, под музыку",   titleEn: "Pachanga — Lesson 6, With Music",       titleHe: "פאצ'אנגה — שיעור 6, עם מוסיקה" },
 ];
 
 const danceLabel = {
