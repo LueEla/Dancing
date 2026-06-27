@@ -248,6 +248,7 @@ const UI = {
     "dance.salsa": "סלסה", "dance.salsa2": "סלסה 2", "dance.chacha": "צ'ה-צ'ה-צ'ה",
     "dance.pachanga": "פאצ'אנגה", "dance.mambo": "מאמבו", "dance.boogaloo": "בוגאלו",
     "card.teacher": "מורה:", "card.no-video": "סרטון בקרוב",
+    "library.note": "הארכיון בתהליך בנייה. חלק מהשיעורים והסרטונים יתווספו בהמשך.",
   },
   en: {
     "nav.learn": "Learn", "nav.archive": "Archive",
@@ -275,6 +276,7 @@ const UI = {
     "dance.salsa": "Salsa", "dance.salsa2": "Salsa 2", "dance.chacha": "Cha-cha-cha",
     "dance.pachanga": "Pachanga", "dance.mambo": "Mambo", "dance.boogaloo": "Boogaloo",
     "card.teacher": "Teacher:", "card.no-video": "Coming soon",
+    "library.note": "The archive is being built. Some lessons and videos will be added later.",
   },
   ru: {
     "nav.learn": "Учёба", "nav.archive": "Архив",
@@ -302,6 +304,7 @@ const UI = {
     "dance.salsa": "Сальса", "dance.salsa2": "Сальса 2", "dance.chacha": "Ча-ча-ча",
     "dance.pachanga": "Пачанга", "dance.mambo": "Мамбо", "dance.boogaloo": "Бугалу",
     "card.teacher": "Преподаватель:", "card.no-video": "Видео скоро",
+    "library.note": "Архив находится в процессе наполнения. Некоторые уроки и видео будут добавлены позже.",
   },
 };
 
