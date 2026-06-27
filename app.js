@@ -186,12 +186,70 @@ const lessons = [
     title: "Ча-ча-ча — урок 6, шаги",        titleEn: "Cha-cha-cha — Lesson 6, Steps",        titleHe: "צ'ה-צ'ה-צ'ה — שיעור 6, צעדים" },
   { dance: "chacha",   teacher: "Алекс Аткин",   youtube: "", video: "videos/Cha-cha-cha/Урок6.mp4",
     title: "Ча-ча-ча — урок 6, под музыку",  titleEn: "Cha-cha-cha — Lesson 6, With Music",   titleHe: "צ'ה-צ'ה-צ'ה — שיעור 6, עם מוסיקה" },
-  { dance: "salsa",    teacher: "Гиже и София",   youtube: "", video: "videos/SalsaNY/видео1.mp4",
-    title: "Сальса NY — видео 1",            titleEn: "Salsa NY — Video 1",                   titleHe: "סלסה NY — סרטון 1" },
-  { dance: "salsa",    teacher: "Гиже и София",   youtube: "", video: "videos/SalsaNY/видео2.mp4",
-    title: "Сальса NY — видео 2",            titleEn: "Salsa NY — Video 2",                   titleHe: "סלסה NY — סרטון 2" },
-  { dance: "salsa",    teacher: "Гиже и София",   youtube: "", video: "videos/SalsaNY/видео3.mp4",
-    title: "Сальса NY — видео 3",            titleEn: "Salsa NY — Video 3",                   titleHe: "סלסה NY — סרטון 3" },
+  { dance: "salsa", salsaGroup: "sofia", teacher: "Гиже и София",  youtube: "", video: "videos/SalsaNY/видео1.mp4",
+    title: "Гиже и София — видео 1",         titleEn: "Gizhe & Sofia — Video 1",              titleHe: "גיז'ה וסופיה — סרטון 1" },
+  { dance: "salsa", salsaGroup: "sofia", teacher: "Гиже и София",  youtube: "", video: "videos/SalsaNY/видео2.mp4",
+    title: "Гиже и София — видео 2",         titleEn: "Gizhe & Sofia — Video 2",              titleHe: "גיז'ה וסופיה — סרטון 2" },
+  { dance: "salsa", salsaGroup: "sofia", teacher: "Гиже и София",  youtube: "", video: "videos/SalsaNY/видео3.mp4",
+    title: "Гиже и София — видео 3",         titleEn: "Gizhe & Sofia — Video 3",              titleHe: "גיז'ה וסופיה — סרטון 3" },
+  { dance: "salsa", salsaGroup: "sofia", teacher: "Гиже и София",  youtube: "", video: "videos/SalsaNY All/Гиже и София.mp4",
+    title: "Гиже и София — видео 4",         titleEn: "Gizhe & Sofia — Video 4",              titleHe: "גיז'ה וסופיה — סרטון 4" },
+  { dance: "salsa", salsaGroup: "sofia", teacher: "Гиже и София",  youtube: "", video: "videos/SalsaNY All/Гиже и София2.mp4",
+    title: "Гиже и София — видео 5",         titleEn: "Gizhe & Sofia — Video 5",              titleHe: "גיז'ה וסופיה — סרטון 5" },
+  { dance: "salsa", salsaGroup: "sofia", teacher: "Гиже и София",  youtube: "", video: "videos/SalsaNY All/Гиже и София3.mp4",
+    title: "Гиже и София — видео 6",         titleEn: "Gizhe & Sofia — Video 6",              titleHe: "גיז'ה וסופיה — סרטון 6" },
+  { dance: "salsa", salsaGroup: "shines", teacher: "Гиже",         youtube: "", video: "videos/SalsaNY All/GizheShins.mp4",
+    title: "Гиже — Шайнс",                  titleEn: "Gizhe — Shines",                       titleHe: "גיז'ה — שיינס" },
+  { dance: "salsa", salsaGroup: "shines", teacher: "Гиже",         youtube: "", video: "videos/SalsaNY All/GizheShins1.mp4",
+    title: "Гиже — Шайнс 1",                titleEn: "Gizhe — Shines 1",                     titleHe: "גיז'ה — שיינס 1" },
+  { dance: "salsa", salsaGroup: "shines", teacher: "Гиже",         youtube: "", video: "videos/SalsaNY All/GizheShins2.mp4",
+    title: "Гиже — Шайнс 2",                titleEn: "Gizhe — Shines 2",                     titleHe: "גיז'ה — שיינס 2" },
+  { dance: "salsa", salsaGroup: "shines", teacher: "Гиже",         youtube: "", video: "videos/SalsaNY All/GizheShins2.1.mp4",
+    title: "Гиже — Шайнс 2.1",              titleEn: "Gizhe — Shines 2.1",                   titleHe: "גיז'ה — שיינס 2.1" },
+  { dance: "salsa", salsaGroup: "shines", teacher: "Гиже",         youtube: "", video: "videos/SalsaNY All/GizheShins3.mp4",
+    title: "Гиже — Шайнс 3",                titleEn: "Gizhe — Shines 3",                     titleHe: "גיז'ה — שיינס 3" },
+  { dance: "salsa", salsaGroup: "shines", teacher: "Гиже",         youtube: "", video: "videos/SalsaNY All/GizheShins3.1.mp4",
+    title: "Гиже — Шайнс 3.1",              titleEn: "Gizhe — Shines 3.1",                   titleHe: "גיז'ה — שיינס 3.1" },
+  { dance: "salsa", salsaGroup: "kurs",   teacher: "Ротэм и Авиэль", youtube: "", video: "videos/SalsaNY All/Курс Ротем и Авиэль1.mp4",
+    title: "Курс Ротэм и Авиэль — видео 1", titleEn: "Course Rotem & Aviel — Video 1",        titleHe: "קורס רותם ואביאל — סרטון 1" },
+  { dance: "salsa", salsaGroup: "kurs",   teacher: "Ротэм и Авиэль", youtube: "", video: "videos/SalsaNY All/Курс Ротем и Авиэль2.mp4",
+    title: "Курс Ротэм и Авиэль — видео 2", titleEn: "Course Rotem & Aviel — Video 2",        titleHe: "קורס רותם ואביאל — סרטון 2" },
+  { dance: "salsa", salsaGroup: "kurs",   teacher: "Ротэм и Авиэль", youtube: "", video: "videos/SalsaNY All/Курс Ротем и Авиэль3.mp4",
+    title: "Курс Ротэм и Авиэль — видео 3", titleEn: "Course Rotem & Aviel — Video 3",        titleHe: "קורס רותם ואביאל — סרטון 3" },
+  { dance: "salsa", salsaGroup: "kurs",   teacher: "Ротэм и Авиэль", youtube: "", video: "videos/SalsaNY All/Курс Ротем и Авиэль4 под музыку.mp4",
+    title: "Курс Ротэм и Авиэль — под музыку", titleEn: "Course Rotem & Aviel — With Music",  titleHe: "קורס רותם ואביאל — עם מוסיקה" },
+  { dance: "salsa", salsaGroup: "latinomind", teacher: "Гиже",     youtube: "", video: "videos/SalsaNY All/Gizhe. LatinoMind.mp4",
+    title: "Гиже — LatinoMind",             titleEn: "Gizhe — LatinoMind",                   titleHe: "גיז'ה — לטינומיינד" },
+  { dance: "salsa", salsaGroup: "latinomind", teacher: "Гиже",     youtube: "", video: "videos/SalsaNY All/Gizhe. LatinoMind2.mp4",
+    title: "Гиже — LatinoMind 2",           titleEn: "Gizhe — LatinoMind 2",                 titleHe: "גיז'ה — לטינומיינד 2" },
+  { dance: "salsa", salsaGroup: "latinomind", teacher: "Гиже",     youtube: "", video: "videos/SalsaNY All/Gizhe. LatinoMind3.mp4",
+    title: "Гиже — LatinoMind 3",           titleEn: "Gizhe — LatinoMind 3",                 titleHe: "גיז'ה — לטינומיינד 3" },
+  { dance: "salsa", salsaGroup: "latinomind", teacher: "Гиже",     youtube: "", video: "videos/SalsaNY All/Gizhe. LatinoMind4.mp4",
+    title: "Гиже — LatinoMind 4",           titleEn: "Gizhe — LatinoMind 4",                 titleHe: "גיז'ה — לטינומיינד 4" },
+  { dance: "salsa", salsaGroup: "latinomind", teacher: "Гиже",     youtube: "", video: "videos/SalsaNY All/Gizhe. LatinoMind5.mp4",
+    title: "Гиже — LatinoMind 5",           titleEn: "Gizhe — LatinoMind 5",                 titleHe: "גיז'ה — לטינומיינד 5" },
+  { dance: "salsa", salsaGroup: "vecherinka", teacher: "",         youtube: "", video: "videos/SalsaNY All/СальсаВечеринка.mp4",
+    title: "Сальса — вечеринка",            titleEn: "Salsa — Party",                         titleHe: "סלסה — מסיבה" },
+  { dance: "salsa", salsaGroup: "vecherinka", teacher: "Паз и Гажу", youtube: "", video: "videos/SalsaNY All/СальсаВечеринка, Паз и Гажу.mp4",
+    title: "Сальса — вечеринка, Паз и Гажу", titleEn: "Salsa — Party, Paz & Gahu",           titleHe: "סלסה — מסיבה, פז וגאהו" },
+  { dance: "salsa", salsaGroup: "vecherinka", teacher: "",         youtube: "", video: "videos/SalsaNY All/СальсаВечеринкаЯ.mp4",
+    title: "Сальса — вечеринка (я)",        titleEn: "Salsa — Party (me)",                    titleHe: "סלסה — מסיבה (אני)" },
+  { dance: "salsa", salsaGroup: "balagan",  teacher: "Алекс и Паз",  youtube: "", video: "videos/SalsaNY All/Алекс и Паз.mp4",
+    title: "Алекс и Паз",                   titleEn: "Alex & Paz",                            titleHe: "אלכס ופז" },
+  { dance: "salsa", salsaGroup: "balagan",  teacher: "Алекс и Паз",  youtube: "", video: "videos/SalsaNY All/Алекс и Паз, продолжающие.mp4",
+    title: "Алекс и Паз — продолжающие",    titleEn: "Alex & Paz — Intermediate",             titleHe: "אלכס ופז — מתקדמים" },
+  { dance: "salsa", salsaGroup: "balagan",  teacher: "Матан и Паз",  youtube: "", video: "videos/SalsaNY All/Матан и Паз.mp4",
+    title: "Матан и Паз",                   titleEn: "Matan & Paz",                           titleHe: "מתן ופז" },
+  { dance: "salsa", salsaGroup: "balagan",  teacher: "Матан и Паз",  youtube: "", video: "videos/SalsaNY All/Матан и Паз2.mp4",
+    title: "Матан и Паз — видео 2",         titleEn: "Matan & Paz — Video 2",                 titleHe: "מתן ופז — סרטון 2" },
+  { dance: "salsa", salsaGroup: "balagan",  teacher: "Ротэм и Авиэль", youtube: "", video: "videos/SalsaNY All/Ротем и Авиэль.mp4",
+    title: "Ротэм и Авиэль",               titleEn: "Rotem & Aviel",                          titleHe: "רותם ואביאל" },
+  { dance: "salsa", salsaGroup: "balagan",  teacher: "Ротэм и Авиэль", youtube: "", video: "videos/SalsaNY All/Ротем и Авиэль2.mp4",
+    title: "Ротэм и Авиэль — видео 2",     titleEn: "Rotem & Aviel — Video 2",                titleHe: "רותם ואביאל — סרטון 2" },
+  { dance: "salsa", salsaGroup: "balagan",  teacher: "Гижэ",         youtube: "", video: "videos/SalsaNY All/Гижэ.mp4",
+    title: "Гижэ",                          titleEn: "Gizhe",                                 titleHe: "גיז'ה" },
+  { dance: "salsa", salsaGroup: "balagan",  teacher: "Гиже",         youtube: "", video: "videos/SalsaNY All/Gizhe2.mp4",
+    title: "Гиже — видео 2",               titleEn: "Gizhe — Video 2",                        titleHe: "גיז'ה — סרטון 2" },
   { dance: "pachanga", teacher: "Алекс Аткин",   youtube: "", video: "videos/Pachanga/1урок, шаги.mp4",
     title: "Пачанга — урок 1, шаги",         titleEn: "Pachanga — Lesson 1, Steps",            titleHe: "פאצ'אנגה — שיעור 1, צעדים" },
   { dance: "pachanga", teacher: "Алекс Аткин",   youtube: "", video: "videos/Pachanga/2урок, шаги.mp4",
@@ -500,9 +558,15 @@ function danceDisplayName(dance) {
 }
 
 const teacherI18n = {
-  "Алекс Аткин": { en: "Alex Atkin",    he: "אלכס אטקין" },
-  "Гиже и София": { en: "Gizhe & Sofia", he: "גיז'ה וסופיה" },
-  "Паз, Матан":  { en: "Paz, Matan",    he: "פז, מתן" },
+  "Алекс Аткин":   { en: "Alex Atkin",       he: "אלכס אטקין" },
+  "Гиже и София":  { en: "Gizhe & Sofia",     he: "גיז'ה וסופיה" },
+  "Паз, Матан":    { en: "Paz, Matan",        he: "פז, מתן" },
+  "Гиже":          { en: "Gizhe",             he: "גיז'ה" },
+  "Гижэ":          { en: "Gizhe",             he: "גיז'ה" },
+  "Ротэм и Авиэль":{ en: "Rotem & Aviel",     he: "רותם ואביאל" },
+  "Алекс и Паз":   { en: "Alex & Paz",        he: "אלכס ופז" },
+  "Матан и Паз":   { en: "Matan & Paz",       he: "מתן ופז" },
+  "Паз и Гажу":    { en: "Paz & Gahu",        he: "פז וגאהו" },
 };
 
 function teacherName(raw) {
@@ -528,7 +592,7 @@ function applyLang() {
   if (mapBtn && !mapPlaying) mapBtn.textContent = t("map.play");
   const activeFilter = document.querySelector("[data-filter].active");
   setDance(activeDance);
-  renderLibrary(activeFilter?.dataset.filter || null);
+  renderLibrary(activeFilter?.dataset.filter || null, activeSalsaGroup);
 }
 
 function videoSrc(path) {
@@ -580,13 +644,17 @@ function makeCard(lesson) {
   return article;
 }
 
-function renderLibrary(filterDance) {
+function renderLibrary(filterDance, salsaGroup) {
   const grid = document.querySelector(".video-grid");
   if (!grid) return;
 
-  const visible = filterDance
+  let visible = filterDance
     ? lessons.filter(l => l.dance === filterDance)
     : lessons;
+
+  if (filterDance === "salsa" && salsaGroup) {
+    visible = visible.filter(l => l.salsaGroup === salsaGroup);
+  }
 
   grid.innerHTML = "";
   visible.forEach(lesson => grid.append(makeCard(lesson)));
@@ -636,9 +704,10 @@ const tempoLabel   = document.querySelector("#tempo-label");
 const claveBeats   = document.querySelector(".clave");
 const danceButtons = document.querySelectorAll("[data-dance]");
 
-let activeDance  = "salsa";
-let activeIndex  = 0;
-let isPaused     = false;
+let activeDance      = "salsa";
+let activeIndex      = 0;
+let isPaused         = false;
+let activeSalsaGroup = null;
 let bpm          = 71;
 let intervalId   = null;
 let resumeTimer  = null;
@@ -978,7 +1047,28 @@ document.querySelectorAll("[data-filter]").forEach(btn => {
   btn.addEventListener("click", () => {
     document.querySelectorAll("[data-filter]").forEach(b => b.classList.remove("active"));
     btn.classList.add("active");
-    renderLibrary(btn.dataset.filter || null);
+    const filter = btn.dataset.filter || null;
+    const subfilter = document.getElementById("salsa-subfilter");
+    if (filter === "salsa") {
+      subfilter.style.display = "";
+      activeSalsaGroup = "shines";
+      document.querySelectorAll("[data-salsagroup]").forEach(b =>
+        b.classList.toggle("active", b.dataset.salsagroup === activeSalsaGroup)
+      );
+    } else {
+      subfilter.style.display = "none";
+      activeSalsaGroup = null;
+    }
+    renderLibrary(filter, activeSalsaGroup);
+  });
+});
+
+document.querySelectorAll("[data-salsagroup]").forEach(btn => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll("[data-salsagroup]").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    activeSalsaGroup = btn.dataset.salsagroup;
+    renderLibrary("salsa", activeSalsaGroup);
   });
 });
 

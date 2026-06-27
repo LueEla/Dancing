@@ -903,3 +903,27 @@ main {
 [dir="rtl"] #note-drills li {
   text-align: right;
 }
+
+.library-note {
+  font-size: 0.82em;
+  color: var(--muted);
+  opacity: 0.75;
+  margin: 0 0 18px;
+}
+
+.salsa-subfilter {
+  margin: 12px 0 6px;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.salsa-subfilter button {
+  font-size: 0.82em;
+  padding: 0 10px;
+  min-height: 30px;
+  opacity: 0.85;
+}
+
+.salsa-subfilter button.active {
+  opacity: 1;
+}
