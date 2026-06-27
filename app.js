@@ -164,7 +164,7 @@ const dances = {
 };
 
 const lessons = [
-  { dance: "chacha",   teacher: "Алекс Аткин",   youtube: "",
+  { dance: "chacha",   teacher: "Алекс Аткин",   youtube: "", video: "videos/Cha-cha-cha/1урок, шаги.mp4",
     title: "Ча-ча-ча — урок 1",              titleEn: "Cha-cha-cha — Lesson 1",              titleHe: "צ'ה-צ'ה-צ'ה — שיעור 1" },
   { dance: "chacha",   teacher: "Алекс Аткин",   youtube: "", video: "videos/Cha-cha-cha/2урок, шаги.mp4",
     title: "Ча-ча-ча — урок 2, шаги",        titleEn: "Cha-cha-cha — Lesson 2, Steps",        titleHe: "צ'ה-צ'ה-צ'ה — שיעור 2, צעדים" },
@@ -186,11 +186,11 @@ const lessons = [
     title: "Ча-ча-ча — урок 6, шаги",        titleEn: "Cha-cha-cha — Lesson 6, Steps",        titleHe: "צ'ה-צ'ה-צ'ה — שיעור 6, צעדים" },
   { dance: "chacha",   teacher: "Алекс Аткин",   youtube: "", video: "videos/Cha-cha-cha/Урок6.mp4",
     title: "Ча-ча-ча — урок 6, под музыку",  titleEn: "Cha-cha-cha — Lesson 6, With Music",   titleHe: "צ'ה-צ'ה-צ'ה — שיעור 6, עם מוסיקה" },
-  { dance: "salsa",    teacher: "Гиже и София",   youtube: "",
+  { dance: "salsa",    teacher: "Гиже и София",   youtube: "", video: "videos/SalsaNY/видео1.mp4",
     title: "Сальса NY — видео 1",            titleEn: "Salsa NY — Video 1",                   titleHe: "סלסה NY — סרטון 1" },
-  { dance: "salsa",    teacher: "Гиже и София",   youtube: "",
+  { dance: "salsa",    teacher: "Гиже и София",   youtube: "", video: "videos/SalsaNY/видео2.mp4",
     title: "Сальса NY — видео 2",            titleEn: "Salsa NY — Video 2",                   titleHe: "סלסה NY — סרטון 2" },
-  { dance: "salsa",    teacher: "Гиже и София",   youtube: "",
+  { dance: "salsa",    teacher: "Гиже и София",   youtube: "", video: "videos/SalsaNY/видео3.mp4",
     title: "Сальса NY — видео 3",            titleEn: "Salsa NY — Video 3",                   titleHe: "סלסה NY — סרטון 3" },
   { dance: "pachanga", teacher: "Алекс Аткин",   youtube: "", video: "videos/Pachanga/1урок, шаги.mp4",
     title: "Пачанга — урок 1, шаги",         titleEn: "Pachanga — Lesson 1, Steps",            titleHe: "פאצ'אנגה — שיעור 1, צעדים" },
