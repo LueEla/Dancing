@@ -247,7 +247,7 @@ const UI = {
     "featured.teacher": "מורה: אלכס אטקין",
     "dance.salsa": "סלסה", "dance.salsa2": "סלסה 2", "dance.chacha": "צ'ה-צ'ה-צ'ה",
     "dance.pachanga": "פאצ'אנגה", "dance.mambo": "מאמבו", "dance.boogaloo": "בוגאלו",
-    "card.teacher": "מורה:",
+    "card.teacher": "מורה:", "card.no-video": "סרטון בקרוב",
   },
   en: {
     "nav.learn": "Learn", "nav.archive": "Archive",
@@ -274,7 +274,7 @@ const UI = {
     "featured.teacher": "Teacher: Alex Atkin",
     "dance.salsa": "Salsa", "dance.salsa2": "Salsa 2", "dance.chacha": "Cha-cha-cha",
     "dance.pachanga": "Pachanga", "dance.mambo": "Mambo", "dance.boogaloo": "Boogaloo",
-    "card.teacher": "Teacher:",
+    "card.teacher": "Teacher:", "card.no-video": "Coming soon",
   },
   ru: {
     "nav.learn": "Учёба", "nav.archive": "Архив",
@@ -301,7 +301,7 @@ const UI = {
     "featured.teacher": "Преподаватель: Алекс Аткин",
     "dance.salsa": "Сальса", "dance.salsa2": "Сальса 2", "dance.chacha": "Ча-ча-ча",
     "dance.pachanga": "Пачанга", "dance.mambo": "Мамбо", "dance.boogaloo": "Бугалу",
-    "card.teacher": "Преподаватель:",
+    "card.teacher": "Преподаватель:", "card.no-video": "Видео скоро",
   },
 };
 
@@ -540,7 +540,8 @@ function makeCard(lesson) {
   } else {
     media = document.createElement("div");
     media.className = `video-preview ${lesson.dance} card-no-video`;
-    media.textContent = "—";
+    media.dataset.i18n = "card.no-video";
+    media.textContent = t("card.no-video");
   }
 
   const body = document.createElement("div");
